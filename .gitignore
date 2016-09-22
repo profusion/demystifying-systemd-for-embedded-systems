@@ -1,0 +1,6 @@
+/download
+/initramfs
+/kernel
+/src
+/systemd
+*~
