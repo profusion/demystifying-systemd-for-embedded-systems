@@ -93,8 +93,9 @@ ${BASEDIR}/src/systemd-${SYSTEMD_VERSION}/configure \
     --disable-ima \
     --disable-selinux \
     --disable-apparmor \
-    --disable-adm \
-    --disable-wheel \
+    --disable-adm-group \
+    --disable-wheel-group \
+    --disable-bzip2 \
     --disable-xz \
     --disable-zlib \
     --disable-lz4 \
@@ -110,6 +111,12 @@ ${BASEDIR}/src/systemd-${SYSTEMD_VERSION}/configure \
     --disable-microhttpd \
     --disable-libcurl \
     --disable-libidn \
+    --disable-libidn2 \
+    --disable-idn \
+    --disable-nss-systemd \
+    --disable-gshadow \
+    --disable-environment-d \
+    --disable-glib \
     --disable-libiptc \
     --disable-binfmt \
     --disable-vconsole \
